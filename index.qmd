@@ -71,13 +71,13 @@ CAN BE USED FOR MULTIPLE HEADLINES
 
 </h2>
 
-##  {data-visibility="hidden"}
+##  {visibility="hidden"}
 
 I'm a hidden slide
 
 ------------------------------------------------------------------------
 
-I'm not
+I'm not hidden
 
 ```{r}
 plot(pressure)
