@@ -1,0 +1,84 @@
+---
+title: "A slide deck"
+author: "Alison Hill"
+format: 
+  revealjs:
+    css: test-style.css
+    transition: 'none'
+    backgroundTransition: 'none'
+    slideNumber: true
+    history: true
+    title-slide-attributes:
+      data-background-image: /img/pink-paint.jpg
+      data-background-size: cover
+---
+
+## Slide One
+
+Slide 1 has background_image.png as its background.
+
+hello
+
+##  {background-image="/img/king.jpg"}
+
+Slide 2 has a special image for its background, even though the heading has no content.
+
+## We all live in a yellow submarine {background-color="#FBD989" style="color:#7899d4;"}
+
+help me
+
+##  {background-color="#FBD989"}
+
+This is a colored slide with no title
+
+--- {background-color="#FBD989"}
+
+This is a colored slide with no title
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="40%"}
+contents...
+:::
+
+::: {.column width="60%"}
+contents...
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Slide with speaker notes
+
+Slide content
+
+::: notes
+Speaker notes go here.
+:::
+
+------------------------------------------------------------------------
+
+<h2 class="r-fit-text">
+
+FIT TEXT
+
+</h2>
+
+<h2 class="r-fit-text">
+
+CAN BE USED FOR MULTIPLE HEADLINES
+
+</h2>
+
+##  {data-visibility="hidden"}
+
+I'm a hidden slide
+
+------------------------------------------------------------------------
+
+I'm not
+
+```{r}
+plot(pressure)
+```

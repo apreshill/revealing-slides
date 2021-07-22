@@ -1,0 +1,11 @@
+---
+title: "A slide deck"
+author: "Alison Hill"
+format: 
+  revealjs:
+    slideNumber: 'c'
+---
+
+## Slide One
+
+my first reveal.js deck!
