@@ -3,13 +3,14 @@ title: "A slide deck"
 author: "Alison Hill"
 format: 
   revealjs:
+    #center: false
     css: test-style.css
     transition: 'none'
     backgroundTransition: 'none'
     slideNumber: true
     history: true
     title-slide-attributes:
-      data-background-image: /img/pink-paint.jpg
+      data-background-image: img/pink-paint.jpg
       data-background-size: cover
 ---
 
@@ -19,7 +20,7 @@ Slide 1 has background_image.png as its background.
 
 hello
 
-##  {background-image="/img/king.jpg"}
+##  {background-image="img/king.jpg"}
 
 Slide 2 has a special image for its background, even though the heading has no content.
 
