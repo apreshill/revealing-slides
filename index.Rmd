@@ -3,22 +3,26 @@ title: "A slide deck"
 author: "Alison Hill"
 format: 
   revealjs:
+    from: markdown+emoji  
     #center: false
     css: test-style.css
     transition: 'none'
     backgroundTransition: 'none'
-    slideNumber: true
+    slideNumber: "c/t"
     history: true
     title-slide-attributes:
       data-background-image: img/pink-paint.jpg
       data-background-size: cover
+output: 
+  revealjs::revealjs_presentation:
+    md_extensions: +emoji
 ---
 
 ## Slide One
 
 Slide 1 has background_image.png as its background.
 
-hello
+hello do emojis work now: :smile:
 
 ##  {background-image="img/king.jpg"}
 
