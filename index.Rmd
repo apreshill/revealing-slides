@@ -13,9 +13,6 @@ format:
     title-slide-attributes:
       data-background-image: img/pink-paint.jpg
       data-background-size: cover
-output: 
-  revealjs::revealjs_presentation:
-    md_extensions: +emoji
 ---
 
 ## Slide One
