@@ -1,5 +1,5 @@
 ---
-title: "A slide deck"
+title: "A revealing slide deck"
 author: "Alison Hill"
 format: 
   revealjs:
@@ -20,9 +20,9 @@ output:
 
 ## Slide One
 
-Slide 1 has background_image.png as its background.
+hello revealjs!
 
-hello do emojis work now: :smile:
+Do emojis work now? :smile:
 
 ##  {background-image="img/king.jpg"}
 
@@ -33,10 +33,6 @@ Slide 2 has a special image for its background, even though the heading has no c
 help me
 
 ##  {background-color="#FBD989"}
-
-This is a colored slide with no title
-
---- {background-color="#FBD989"}
 
 This is a colored slide with no title
 
@@ -82,7 +78,7 @@ I'm a hidden slide
 
 ------------------------------------------------------------------------
 
-I'm not hidden
+## I'm not hidden
 
 ```{r}
 plot(pressure)
