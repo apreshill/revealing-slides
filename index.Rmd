@@ -60,17 +60,11 @@ Speaker notes go here.
 
 ------------------------------------------------------------------------
 
-<h2 class="r-fit-text">
+## FIT TEXT {.r-fit-text}
 
-FIT TEXT
+## CAN BE USED FOR MULTIPLE HEADLINES {.r-fit-text}
 
-</h2>
-
-<h2 class="r-fit-text">
-
-CAN BE USED FOR MULTIPLE HEADLINES
-
-</h2>
+---
 
 ##  {visibility="hidden"}
 
